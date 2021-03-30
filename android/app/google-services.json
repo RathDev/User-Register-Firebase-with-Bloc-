@@ -1,0 +1,39 @@
+ {
+  "project_info": {
+    "project_number": "457587345328",
+    "project_id": "implement-sign-up-using-email",
+    "storage_bucket": "implement-sign-up-using-email.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457587345328:android:50d4064a4b2a78a5183875",
+        "android_client_info": {
+          "package_name": "com.ompel.signup_using_gmail_psd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457587345328-8vb5des6k06qa0pbch00sn6bq72up2df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSPtkzUNDFvRLE5dsBeuQB6NHykQjSZpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457587345328-8vb5des6k06qa0pbch00sn6bq72up2df.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
