@@ -24,7 +24,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:signup_using_gmail_psd/UI/home_screen_one.dart';
-import 'file:///E:/flutter_project/signup_using_gmail_psd/lib/UI/signin/signin.dart';
+import 'package:signup_using_gmail_psd/UI/signin/signin.dart';
 import 'package:signup_using_gmail_psd/blocs/bloc_authentication/authentication_bloc.dart';
 import 'package:signup_using_gmail_psd/blocs/bloc_authentication/authentication_state.dart';
 import 'package:signup_using_gmail_psd/blocs/simple_bloc_observer.dart';
