@@ -135,9 +135,11 @@ class _LoginFormState extends State<RegisterForm> {
                           {
                             return "Confirm password doesn't match!";
                           }else{
+                          print('null 1');
                           return null;
                         }
                       }else {
+                        print('null 2');
                         return null;
                       }
 
@@ -148,8 +150,14 @@ class _LoginFormState extends State<RegisterForm> {
                   ),
                   RaisedButton(
                     onPressed: () {
-                      if (isButtonEnabled(state)) {
-                        _onFormSubmitted();
+                      if(_confirmPasswordController.text == _passwordController.text) {
+                        print('Confirm password correct');
+                        if (isButtonEnabled(state)) {
+                          _onFormSubmitted();
+                        }
+                      }else {
+                        print('Confirm password Incorrect');
+
                       }
                     },
                     color: Colors.blue,
